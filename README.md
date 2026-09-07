@@ -1,4 +1,4 @@
-# agent-skills
+﻿# agent-skills
 
 个人 Agent Skills 集合（适用于支持 Agent Skills 的环境：Claude Code、Claude.ai 等）。
 
@@ -6,7 +6,8 @@
 
 | 技能 | 说明 |
 |------|------|
-| `decision-challenge` | **反谄媚决策质询**：重要决策时用三阶段对抗质询（最强反方 → 最强正方 → 中立裁判），对抗 LLM 的谄媚倾向（sycophancy），输出不迎合的诚实分析 |
+| `decision-challenge` |
+| `dev-mentor` | **引导式开发**：AI 只辅助、不代写。任务拆解 + 逐个引导 + 五维标准代码审查（正确性/可读性/健壮性/规范性/扩展性），严格批评、不奉承，帮用户亲手写出代码并积累经验 | **反谄媚决策质询**：重要决策时用三阶段对抗质询（最强反方 → 最强正方 → 中立裁判），对抗 LLM 的谄媚倾向（sycophancy），输出不迎合的诚实分析 |
 
 ## 安装
 
@@ -45,3 +46,4 @@ skills/<skill-name>/
 ## License
 
 MIT © 2026 Arletaa
+
